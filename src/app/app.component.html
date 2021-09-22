@@ -1,0 +1,13 @@
+<body style="margin: 0%;">
+  <div id="container">
+    <ul>
+        <li><a style="text-decoration:none" href="javascript:void(0)">Home</a></li>
+        <li><a style="text-decoration:none" href="javascript:void(0)">Contato</a></li>
+        <li [style.background]="buttoncolor" ><a [style.color]="buttonfontcolor" (mouseover)="hover=true" (mouseleave)="hover=false" style="text-decoration:none" (click)="toggle()" href="javascript:void(0)" id="checkbox">{{Bdarktheme}}</a></li>
+    </ul>
+</div>
+  <app-corpo [style.background] ="color" [style.color]="fontcolor"></app-corpo>
+  <app-fundo></app-fundo>
+  <script>
+  </script>
+</body>

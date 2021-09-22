@@ -1,0 +1,10 @@
+.fundo{
+    width: 100%;
+    position: fixed;
+    background-color: black;
+    opacity: .85;
+    top: 0;
+}
+.fundo:hover{
+    opacity: 1;
+}
