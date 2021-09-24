@@ -1,47 +1,67 @@
 app-corpo{
-    font-size: 250%;
-    z-index: 2;
-    position: absolute;
-    background-color: "aliceblue";
-    margin-top: 25%;
-    text-align: center;
+  font-size: 250%;
+  z-index: 2;
+  position: absolute;
+  background-color: "aliceblue";
+  margin-top: 25%;
+  text-align: center;
 }
 #container{
-    position: fixed;
-    z-index: 3;
-    width: 100%;
-    height: 50px;
+  position: fixed;
+  z-index: 3;
+  width: 100%;
+  height: 70px;
 }
-li {
-    margin: 5px;
-    margin-top: 10px;
-    padding: 0;
-    display: inline;
-    font-size: 150%;
-    background-color: rgb(78, 67, 221);
-    border-radius: 40px;
-    padding: 15px;
-}
-a{
-    color: aliceblue;
-    font-family: Arial, Helvetica, sans-serif;
+li#bt.Right_bt_1{
+  right: 0px;
+  margin-right: 187.28px;
 }
 
-li:hover{
-    background-color: rgb(101, 93, 219);
+li#bt.Right_bt_2{
+  right: 0px;
+  margin-right: 286.31px;
+}
+
+li.Dark_bt{
+  right: 5px;
+}
+
+li.Left_bt{
+  left: 0;
+}
+li#bt{
+  background-color: rgb(78, 67, 221);
+  margin: 5px;
+  position: fixed;
+  display: inline;
+  padding: 15px;
+  border-radius: 40px;
+  top: 0px;
+  font-size: 150%;
+}
+
+a{
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+li#bt:hover{
+  background-color: rgb(101, 93, 219);
 }
 ul{
-    position: relative;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    z-index: 2;
-    text-align: right;
-    height: 50px;
-    margin-top: 20px;
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  z-index: 2;
+  text-align: right;
+  height: 70px;
+  margin-top: 20px;
+
 }
 #switch{
-    position: relative;
-    width: 5%;
+  position: relative;
+  width: 5%;
 
 }
