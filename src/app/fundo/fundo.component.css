@@ -4,6 +4,7 @@
     background-color: black;
     opacity: .85;
     top: 0;
+    transition: .5s;
 }
 .fundo:hover{
     opacity: 1;

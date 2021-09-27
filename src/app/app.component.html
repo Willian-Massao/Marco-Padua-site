@@ -1,13 +1,26 @@
 <body style="margin: 0%;">
   <div id="container" [style.background]="buttoncolor">
     <ul>
-        <li id="bt" class="Left_bt"><a class="menu_animated" style="text-decoration:none" href="javascript:void(0)">=</a></li>
+        <li id="bt" class="Left_bt"><a class="menu_animated" style="text-decoration:none" href="javascript:void(0)" (click)="apper()">=</a></li>
           <div>
             <li id="bt" class="Right_bt_1"><a style="text-decoration:none" href="javascript:void(0)">Home</a></li>
             <li id="bt" class="Right_bt_2"><a style="text-decoration:none" href="javascript:void(0)">Contato</a></li>
           </div>
-        <li id="bt" class="Dark_bt" [style.background]="buttoncolor" ><a [style.color]="buttonfontcolor" (mouseover)="hover=true" (mouseleave)="hover=false" style="text-decoration:none" (click)="toggle()" href="javascript:void(0)" id="checkbox">{{Bdarktheme}}</a></li>
+        <li id="bt" class="Dark_bt" [style.background]="buttoncolor" >
+          <a [style.color]="buttonfontcolor"
+          (mouseover)="hover=true"
+          (mouseleave)="hover=false"
+          style="text-decoration:none"
+          (click)="toggle()"
+
+          href="javascript:void(0)" id="checkbox">{{Bdarktheme}}
+        </a>
+      </li>
     </ul>
+    <div class="Menu_Lateral_fundo" [style.z-index]="normal_zIndex" [style.opacity]="normal_opacity" (click)="apper()">
+    </div>
+    <div class="Menu_Lateral" [style.marginLeft]="normal">
+    </div>
 </div>
   <app-corpo [style.background] ="color" [style.color]="fontcolor"></app-corpo>
   <app-fundo></app-fundo>

@@ -28,16 +28,22 @@ li.Dark_bt{
 
 li.Left_bt{
   left: 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
 }
+
 li#bt{
   background-color: rgb(78, 67, 221);
   margin: 5px;
   position: fixed;
   display: inline;
   padding: 15px;
-  border-radius: 40px;
+  border-radius: 30px;
   top: 0px;
   font-size: 150%;
+  transition: background .5s;
 }
 
 a{
@@ -63,5 +69,25 @@ ul{
 #switch{
   position: relative;
   width: 5%;
-
 }
+.Menu_Lateral{
+  background-color: rgb(40,40,40);
+  position: fixed;
+  z-index: 4;
+  height: 100%;
+  width: 200px;
+  margin-top: -90px;
+  margin-left: -90px;
+  transition: .20s;
+  opacity: 100%;
+}
+.Menu_Lateral_fundo{
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  margin-top: -90px;
+  opacity: 0;
+  transition: .25s;
+}
+

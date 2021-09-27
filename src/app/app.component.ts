@@ -13,6 +13,21 @@ export class AppComponent {
   buttonfontcolor = "gray"
   hover=false
   Bdarktheme="Dark Theme"
+  normal="-100%"
+  normal_zIndex="-1"
+  normal_opacity="0%"
+
+  apper(){
+    if (this.normal === "-100%"){
+      this.normal="0%"
+      this.normal_zIndex="4"
+      this.normal_opacity="40%"
+    }else{
+      this.normal="-100%"
+      this.normal_zIndex="0"
+      this.normal_opacity="0%"
+    }
+    }
   toggle(){
     if (this.color == "aliceblue"){
       this.color = "rgb(44 ,44 ,44 )"
